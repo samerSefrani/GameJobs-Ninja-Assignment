@@ -1,0 +1,98 @@
+<!--
+  This is a take-home assignment for GameJobs.Ninja's frontend developer internship position. It
+  attempts to test your fundamental HTML, CSS, and JavaScript knowledge. See the comments below
+  for the specific tasks. Then see the comment at the end for how to submit your finished work to
+  us for review. Thanks ahead of time for doing this!
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FE Dev Intern Test</title>
+    <!--
+      Add CSS to make this page look professional. By professional, we mean somewhere well past "programmer art" ;)
+
+      And you may not use any third-party CSS framework.
+    -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!--
+      Add a header with "NATO Phonetic Alphabet" on the left that links to its Wikipedia article.
+      And on the right, add links to Wikipedia, the Wikimedia Foundation, and the Wikimedia
+      Foundation's Twitter account.
+    -->
+    <div class="header">
+      <a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet" target="_blank" class="headerLeft">NATO Phonetic Alphabet</a>
+      <div class="header-right">
+        <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>
+        <a href="https://wikimediafoundation.org/" target="_blank">Wikimedia Foundation</a>
+        <a class="twitter" href="https://twitter.com/Wikimedia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Wikimedia Twitter</a>
+      </div>
+    </div>
+
+    <section>
+      <!--
+        Add CSS to create a responsive layout of these div elements that will display one column
+        on mobile devices, two columns on tablet devices, and three columns on desktops.
+
+        Reminder, you may not use any third-party CSS framework.
+      -->
+      <div>golf</div>
+      <div>alpha</div>
+      <div>bravo</div>
+      <div>oscar</div>
+      <div>victor</div>
+      <div>echo</div>
+      <div>foxtrot</div>
+      <div>romeo</div>
+      <div>tango</div>
+      <div>charlie</div>
+      <div>mike</div>
+      <div>yankee</div>
+      <div>hotel</div>
+      <div>papa</div>
+      <div>zulu</div>
+      <div>india</div>
+      <div>juliett</div>
+      <div>kilo</div>
+      <div>delta</div>
+      <div>lima</div>
+      <div>november</div>
+      <div>quebec</div>
+      <div>sierra</div>
+      <div>uniform</div>
+      <div>x-ray</div>
+      <div>whiskey</div>
+      <!--
+        Add JS to make the Sort and Shuffle buttons functional, where clicking Sort will sort the
+        divs by content alphabetically, and clicking Shuffle will apply a random sort to the divs.
+
+        You may not use any third-party JS framework, not even jQuery. Instead, use the native
+        JavaScript DOM manipulation methods. Hint: google "JavaScript Dom Manipulation without
+        jQuery" to see some good articles on this. (Although a way to tackle this could be to
+        implement with jQuery and then translate to native JavaScript.)
+      -->
+      <button onclick="reArrange('sort')">Sort</button>
+      <button onclick="reArrange('shuffle')">Shuffle</button>
+    </section>
+    <!--
+      Add a footer with your name that links to your email address.
+          <script type="text/javascript" src="js/main.js"></script>
+    -->
+    <hr>
+
+    <footer>
+      <a href="mailto:ssefrani@sfu.ca">Samer Sefrani</a>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
+<!--
+  When you're done, commit your work to a publically accessible Git repo on GitHub, GitLab, or
+  BitBucket (preferrably GitHub). Then fill out this Google Form to submit the repo link to us for
+  review: https://forms.gle/MppfwvJpJ5nHApJy5
+-->
